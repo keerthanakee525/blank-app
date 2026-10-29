@@ -167,3 +167,14 @@ if st.button("🔍 Analyze My Skills"):
 
 st.divider()
 st.caption("Developed as a Student Skill Gap Detection Project")
+st.divider()
+st.subheader("📄 Upload Your Resume")
+
+uploaded_file = st.file_uploader(
+    "Choose your resume (PDF)",
+    type=["pdf"]
+)
+
+if uploaded_file is not None:
+    st.success("✅ Resume uploaded successfully!")
+    st.write("File name:", uploaded_file.name)
