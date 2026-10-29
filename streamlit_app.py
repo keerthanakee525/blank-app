@@ -38,4 +38,4 @@ job_skills = {
 resources = {
     "Python": "Python programming tutorials",
     "Java": "Java programming course",
-    "C": "C programming tutorials
+    "C": "C programming tutorials",
